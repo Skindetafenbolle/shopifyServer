@@ -1,5 +1,5 @@
-const apiKey = 'c7939bbf4075041f5b7c2507befa006b';
-const apiSecret = 'db2bd5c7970536bde93efcfe13b35c33';
+const apiKey = process.env.API_KEY
+const apiSecret = process.env.API_SECRET
 
 // Функция для получения токена доступа
 async function getAccessToken() {
